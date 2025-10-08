@@ -296,12 +296,7 @@ nav a:hover:after {
     left: 0;
 }
 
-/* Featured Work */
-.featured-work {
-    background-color: var(--light-gray);
-    padding: 5rem 0;
-}
-
+/* Section Title */
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
@@ -327,6 +322,12 @@ nav a:hover:after {
 
 .section-title:hover h2:after {
     width: 80px;
+}
+
+/* Featured Work */
+.featured-work {
+    background-color: var(--light-gray);
+    padding: 5rem 0;
 }
 
 .work-grid {
@@ -455,8 +456,13 @@ nav a:hover:after {
     gap: 4rem;
 }
 
-.about-text { flex: 2; }
-.about-image { flex: 1; }
+.about-text { 
+    flex: 2; 
+}
+
+.about-image { 
+    flex: 1; 
+}
 
 .about-image img {
     width: 100%;
@@ -671,7 +677,6 @@ footer:hover {
     }
     
     .about-image {
-        order: -1;
         width: 70%;
     }
 }
